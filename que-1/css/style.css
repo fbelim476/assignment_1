@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    padding: 10px;
+}
+
+.main{
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(106, 185, 46);
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.input_fild{
+    margin: 5px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 6px 0 4px -4px #ffffff, -6px 0 4px -4px #ffffff; 
+}
+
+span{   
+    font-size: 30px;
+    margin-right: 48px;
+    margin-left: 9px;
+}
+
+input[type=text]{
+    width: 550px;
+    height: 35px;
+    border: 2px solid white;
+    
+    border-radius: 5px;
+    font-size: 26px;
+    outline: none;
+    background-color: #fff;
+}
+
+.address{
+   height: 150px; 
+}
+
+input[type=radio]{
+    width:10%;
+}
+
+button{
+    width:150px;
+    height:45px;
+    color:white;
+    background-color:black;
+    border-radius:  30px;
+    margin-left: 37%;
+}
+
+
+
+
+@media screen and (max-width:1172px){
+
+    body{
+        font-size: 10px;
+    }
+
+    span{
+        font-size: 15px;
+    }
+
+    .main{
+        text-align: center;
+    }
+
+    input[type=text]{
+        width: 300px;
+        height: auto;
+    }
+
+    input[type=radio]{
+        width:3%;
+    }
+}
+
+@media screen and (max-width:674){
+    
+    input[type=text]{
+        width: 200px;
+        height: 30px;
+    }
+
+    input[type=radio]{
+        width:2%;
+    }
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Audiowide', cursive;
+    font-family: 'PT Serif', serif;
+}
+
+.logo-name{
+    font-family: 'Audiowide', cursive;
+    color: rgb(60, 174, 164);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input[type=text]{
+    width: 100px;
+    height: auto;
+
+}
+
+/* navbar style */
+
+.navbar-nav{
+    background-color: rgb(48, 144, 136);
+    text-align: center
+}
+
+.menu-nav{
+    margin: auto;
+}
+
+.menu-nav a{
+    margin: 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+
+}
+
+
+/* product style */
+
+.product-title{
+    background-color: rgb(48, 144, 136);
+}
+
+.product-border{
+   
+}
+
+/* footer */
+
+.footer-main{
+    background-color: rgb(48, 144, 136);
+
+}
+
+.footerhead{
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.copyright{
+    background-color: rgb(59, 155, 147);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
